@@ -1,0 +1,70 @@
+
+mpd_host = "localhost"
+
+mpd_port = "6600"
+
+mpd_music_dir = "/media/Multimedia/Songs"
+
+playlist_disable_highlight_delay = "5"
+
+message_delay_time = "4"
+
+## %l - length
+## %f - short filename
+## %F - full filename
+## %a - artist
+## %t - title
+## %b - album
+## %y - year
+## %n - track number
+## %g - genre
+## %c - composer
+## %p - performer
+## %d - disc
+## %C - comment
+## %r - begin right align
+##
+## - 0 - default window color
+## - 1 - black
+## - 2 - red
+## - 3 - green
+## - 4 - yellow
+## - 5 - blue
+## - 6 - magenta
+## - 7 - cyan
+## - 8 - white
+## - 9 - end of current color
+
+song_list_format = "{%a - }{%t}|{$8%f$9}%r{$3(%l)$9}"
+
+song_library_format = "{%n - }{%t}|{%f}"
+
+media_library_album_format = "{(%y) }%b"
+
+tag_editor_album_format = "{(%y) }%b"
+
+song_columns_list_format = " (45)[cyan]{t} (28)[magenta]{b} (28)[yellow]{a}"
+
+playlist_show_remaining_time = "yes"
+
+playlist_display_mode = "columns" (classic/columns)
+
+browser_display_mode = "columns" (classic/columns)
+
+search_engine_display_mode = "columns" (classic/columns)
+
+header_visibility = "yes"
+
+statusbar_visibility = "yes"
+
+fancy_scrolling = "yes"
+
+display_screens_numbers_on_start = "yes"
+
+ignore_leading_the = "no"
+
+enable_window_title = "yes"
+
+lyrics_database = "1"
+
+colors_enabled = "yes"
